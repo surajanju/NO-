@@ -32,20 +32,8 @@ Tested With Kali linux only
 
 <br>
 
-### Update Log:
-- Second (latest) Update on  November 4th , 2022 .
-- The overall structure of the tool is programmed from the beginning and is available as a web panel (in previous versions, the tool was available in the command line).
-- Previous version's bugs fixed !
-- Auto-download Ngrok Added !
-- The templates have been optimized !
-- Logs can be downloaded (NEW) !
-- Clear log Added !
-- It can be uploaded on a personal host (you won't have the Ngork problems anymore)
-- You can start and stop the listener anytime ! (At will)
-- Beautified user interface (NEW) !
 
-
-> We have deleted Ngrok in the new version of Storm breaker and entrusted the user with running and sharing the localhost . So please note that Storm breaker runs a localhost for you and you have to start the Ngrok on your intended port yourself .
+> create ngrok account and setup in No-Control folder.
 <br>
 
 #### Attention! :
@@ -54,25 +42,22 @@ Tested With Kali linux only
 
 ## Default username and password:
 - `username` : `admin`
-- `password` : `admin`
+- `password` : `suraj`
 - You can edit the config.php file to change the username and password .
 <br>
 
 ### Dependencies
 
-**`Storm Breaker`** requires following programs to run properly - 
 - `php`
 - `python3`
 - `git`
 - `Ngrok`
 
-<!-- ![demo](.imgs/Work3.gif) -->
 <br>
 
 ### Platforms Tested
 
-- Kali Linux 2022 
-- macOS Big Sur / M1 
+- Kali Linux 
 - Personal host (direct admin and cPanel) 
 <br>
 
@@ -81,7 +66,7 @@ Tested With Kali linux only
 
 ```bash
 $ git clone 
-$ cd Storm-Breaker
+$ cd NO-Control
 $ sudo bash install.sh
 $ sudo python3 -m pip install -r requirements.txt
 $ sudo python3 st.py
